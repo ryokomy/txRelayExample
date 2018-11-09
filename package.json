@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "node src/route.js",
+    "test": "node src/postTest.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "web3": "^1.0.0-beta.36"
+  }
+}
