@@ -1,7 +1,9 @@
 {
   "scripts": {
     "start": "node src/route.js",
-    "test": "node src/postTest.js"
+    "deploy": "truffle deploy --network local --reset",
+    "test:post": "node src/post.js",
+    "test:direct": "node src/tests/direct.js"
   },
   "dependencies": {
     "express": "^4.16.4",

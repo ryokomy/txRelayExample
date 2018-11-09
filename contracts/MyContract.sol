@@ -4,6 +4,7 @@ contract MyContract {
     address public owner;
     uint256 public x;
     address public addr;
+    address public sender;
 
     constructor() public {
         owner = msg.sender;
@@ -15,5 +16,6 @@ contract MyContract {
 
     function setAddress(address _addr) public {
         addr = _addr;
+        sender = msg.sender;
     }
 }
